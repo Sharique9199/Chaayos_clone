@@ -1,0 +1,70 @@
+footer {
+    background-color: #018c3a;
+    padding: 30px 0;
+    font-family: Nutito,sans-serif;
+    font-size: 16px;
+}
+.footerListPart{
+    
+    width: 45%;
+    margin: 2rem auto;
+    display: flex;
+   
+    
+}
+
+.LsitHeading{
+    font-size: 15px;
+    color: #ffff;
+    letter-spacing: 2px;
+}
+#footerSecondListDiv{
+    margin-left: 6rem;
+    
+}
+.listingItem{
+    list-style: none;
+    margin:0 0 0 -2.4rem;
+   
+}
+.listingItem li{
+    
+   
+    font-weight: 500;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+#mobileNo{
+    font-size: 18px;
+}
+#mobileIcon{
+    padding-right: 15px;
+    font-size: 20px;
+}
+#follow{
+    margin-top: 2.5rem;
+}
+#iconDiv{
+    display: inline-block;
+   
+    font-size: 1.8rem;
+    padding-right: 0.5rem;
+    color: #fff;
+}
+.icon{
+    padding-right: 1.5rem;
+}
+.bottomFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomFooter >p{
+    color: #fff;
+    padding: 0 0.5rem;
+}
+.bottomFooter p+p{
+    
+    border-bottom: 1px solid #fff;
+}
