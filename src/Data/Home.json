@@ -1,0 +1,141 @@
+[
+    {
+    "title":"BestSeller",
+    "data":
+    [
+        {"id":1,
+        "img":"https://chaayos.com/collections/best-sellers/products/chaayos-instant-tea-masala-regular-sugar-36-sachets",
+        "name":"Instant Tea - Masala - Regular Sugar (36 Sachets)",
+        "sale":"",
+        "price":"549",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":"10"
+        },
+        {"id":2,
+        "img":"https://chaayos.com/collections/best-sellers/products/meri-wali-chai-patti",
+        "name":"Make Your Own Chai - 400g Pack",
+        "sale":"Sale",
+        "price":"329",
+        "discountPrice":"399",
+        "discountPer":"18",
+        "review":"23"
+        },
+        {"id":3,
+        "img":"https://chaayos.com/cdn/shop/files/81-AI_kbHnL._SX679.jpg?v=1683542634&width=360",
+        "name":"Masala Chai",
+        "sale":"",
+        "price":"199",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":"10"
+        } ,
+        {"id":4,
+        "img":"https://chaayos.com/cdn/shop/files/1_2d19bbac-3a77-40a3-a826-73ea505994d6.jpg?v=1693823534&width=360",
+        "name":"Instant Tea - Ginger Cardamom - Low Sugar (150ml)",
+        "sale":"",
+        "price":"139",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":"1"
+        } ,
+        {"id":5,
+        "img":"https://chaayos.com/cdn/shop/files/519ptyXNNzL.jpg?v=1683473456&width=360",
+        "name":"Chaayos Chai Masala - Aromatic Tea Masala Powder with 100% Natural Ingredients",
+        "sale":"",
+        "price":"269",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":"1"
+        },
+        {"id":6,
+        "img":"https://chaayos.com/cdn/shop/files/71EYNZ4VDcL._SL1500.jpg?v=1683536723&width=360",
+        "name":"Chaayos Chamomile Herbal Tea - 50 GM | Herbal Tea | Chamomile Flower Tea | Natural Chamomile Flowers",
+        "sale":"Sale",
+        "price":"399",
+        "discountPrice":"449",
+        "discountPer":"11",
+        "review":""
+        }
+    ]
+},
+{
+    "title":"New Arrivals",
+    "data":[
+        {"id":1,
+        "img":"https://chaayos.com/cdn/shop/products/5-2.jpg?v=1640935286&width=360",
+        "name":"Kashmiri Saffron (1g) - Pure A++ Grade Kesar",
+        "sale":"Sale",
+        "price":"449",
+        "discountPrice":"549",
+        "discountPer":"18",
+        "review":""
+        },
+        {"id":2,
+        "img":"https://chaayos.com/cdn/shop/products/hibiscus-tea-bags.jpg?v=1654611617&width=360",
+        "name":"Hibiscus Mulethi Green Tea Bags",
+        "sale":"299",
+        "price":"",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":"6"
+        },
+        {"id":3,
+        "img":"https://chaayos.com/cdn/shop/files/1_1_1.jpg?v=1683541942&width=900",
+        "name":"Sri Lankan Cinnamon Powder - 50g",
+        "sale":"159",
+        "price":"179",
+        "discountPrice":"0",
+        "discountPer":"11",
+        "review":""
+        },
+        {"id":4,
+        "img":"https://chaayos.com/cdn/shop/products/front-image_cardamom.jpg?v=1709535852&width=900",
+        "name":"Chaayos Detox Green Tea - Desi Kahwa | Green Tea Bags | Desi Kahwa Green Tea | Green Tea for Digestion",
+        "sale":"",
+        "price":"299",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":"1"
+        },
+        {"id":5,
+        "img":"https://chaayos.com/cdn/shop/products/green-tea-bag.jpg?v=1654611373&width=900",
+        "name":"Chamomile Green Tea Bags",
+        "sale":"",
+        "price":"299",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":""
+        },
+        {"id":6,
+        "img":"https://chaayos.com/cdn/shop/files/gingerheroimage.jpg?v=1703156538&width=360",
+        "name":"Chaayos Instant Tea Premix - Ginger Flavour - Low Sugar (36 Sachets) | Instant Tea | Tea Premix | Ginger Tea",
+        "sale":"",
+        "price":"549",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":""
+        },
+        {"id":7,
+        "img":"https://chaayos.com/cdn/shop/files/cardamom_Packof36.jpg?v=1703156751&width=900",
+        "name":"Chaayos Instant Tea Premix - Cardamom Flavour - Low Sugar (36 Sachets) | Instant Tea | Tea Premix | Cardamom Tea",
+        "sale":"",
+        "price":"549",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":""
+        },
+        {"id":8,
+        "img":"https://chaayos.com/cdn/shop/files/masalachai36_lowsugar.jpg?v=1703156945&width=900",
+        "name":"Chaayos Instant Tea Premix - Masala Flavour - Low Sugar (36 Sachets) | Instant Tea | Tea Premix | Masala Tea",
+        "sale":"",
+        "price":"549",
+        "discountPrice":"0",
+        "discountPer":"0",
+        "review":""
+        }
+        
+     
+    ]
+}
+]
