@@ -37,6 +37,7 @@ const Home = () => {
 
       <ItemsList />
       <Card />
+      <Card />
     </Layout>
   );
 };
