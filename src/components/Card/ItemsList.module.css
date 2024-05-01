@@ -18,6 +18,11 @@ section>h1{
 .cardItemContainer> div>img{
     width: 100%;
 }
+.cardItemContainer> div>img:hover{
+    width: 98%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
 .cardItemContainer> div>img+h3{
     text-align: center;
     font-size: 18.4px;
@@ -27,13 +32,13 @@ section>h1{
 }
 .offerCode{
     max-width: 95%;
-    margin: 2rem auto;
+    margin: 7rem auto;
     background-color: rgb(202,86,26);
     display:flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-    /* padding: 0.7rem; */
+    border-radius: 20px;
+    padding: 1.5rem;
 
 }
 .offerCode >h1{

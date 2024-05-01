@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div id={style.footerFirstListDiv}>
         <div className={style.LsitHeading}>
-            <h3>Site menu</h3>
+            <h3 id={style.siteMenu}>Site menu</h3>
     </div>
 
     <ul className={style.listingItem }> 

@@ -12,6 +12,7 @@ import eightImage from "../../assets/eight_gifitng.webp"
 
 
 import ItemsList from '../../components/Card/ItemsList'
+import Card from "../../components/Card/Card";
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
         &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 15% Off on First Order : Use
         Code - FIRSTORDER &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 15% Off on
-        First Order : Use Code - FIRSTORDER
+        First Order : Use Code - FIRSTORDER  &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;15% Off on First Order : Use Code - FIRSTORDER
       </marquee>
       <Slider />
       <div className="images">
@@ -48,7 +49,7 @@ const Home = () => {
       </marquee>
 
      <ItemsList/>
-
+    <Card/>
 
     </Layout>
   );
