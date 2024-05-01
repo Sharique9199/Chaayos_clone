@@ -4,14 +4,5 @@
   box-sizing: border-box;
 }
 
-.auto_run{
-  background-color: rgb(228, 82, 29);
-  color: white;
-  font-size: 1.2rem;
-}
 
-.images img{
-  width: 95%;
-  margin-left: 3rem;
-  margin-bottom: 3rem;
-}
+
