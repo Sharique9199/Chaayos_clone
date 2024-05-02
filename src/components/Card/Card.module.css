@@ -1,25 +1,21 @@
-.cardContainer{
-    width: 95%;
-    margin: 4rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    /* border: 1px solid red; */
+
+
+
+.singleCardDiv{
     
-}
-.cardContainer>div{
-    max-width: 19.5%;
-    /* margin: auto; */
+   width: 340px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 14px;
     
     /* border: 1px solid black; */
 }
-.cardContainer>div>img{
-    width: 100%;
+.singleCardDiv>img{
+  width: 100%;
+  padding: 0.3rem;
 }
 .sale{
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 5%;
     padding: 0.1rem 0.8rem;
     color: #fff;

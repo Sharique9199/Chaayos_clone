@@ -5,75 +5,33 @@ import instendTea from '../../assets/instantTea.webp'
 import { FaSearch } from "react-icons/fa";
 import { MdAdd } from "react-icons/md";
 
-const Card = () => {
+
+const Card = ({img,name,price,desPrice,desPer,review,sale}) => {
+   console.log("Sharique",img)
   return (
     <>
-      <section>
-        <h1>Bestsellers</h1>
-        <div className={style.cardContainer}>
-        <div>
+        {/* <h1>Bestsellers</h1> */}
+       
+        <div className={style.singleCardDiv}>
                 <div className={style.hiddenAndShowIcon}>
                 <p><FaSearch className={style.iconShow} /></p>
                <p> <MdAdd /></p>
                 </div>
-                <img src={instendTea} alt="" />
-                <p className={style.sale}>SALE</p>
-                <p className={style.itemName}>Instant Tea - Masala - Regular Sugar (36 Sachets)</p>
+                <img src={img} alt="" />
+                <p className={style.sale}>{sale}</p>
+                <p className={style.itemName}>{name}</p>
                 <div className={style.priceContainer}>
-                <p className={style.itemPrice}>₹ &nbsp;549</p>
-                <del>₹ 399</del>
-                <p>Save 18%</p>
+                <p className={style.itemPrice}>₹ &nbsp;{price}</p>
+                <del>₹{desPrice}</del>
+                <p>Save{desPer}% </p>
                 </div>
                 <p className={style
-                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /><span className={style.reviewcount}>6 review</span></p>
+                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /><span className={style.reviewcount}>{review} review</span></p>
             </div>
 
-                  <div>
-                <img src={instendTea} alt="" />
-                <p className={style.sale}>SALE</p>
-                <p className={style.itemName}>Instant Tea - Masala - Regular Sugar (36 Sachets)</p>
-                <p className={style.itemPrice}>₹ &nbsp;549</p>
-                <p className={style
-                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-            </div>
-            <div>
-                <img src={instendTea} alt="" />
-                <p className={style.sale}>SALE</p>
-                <p className={style.itemName}>Instant Tea - Masala - Regular Sugar (36 Sachets)</p>
-                <p className={style.itemPrice}>₹ &nbsp;549</p>
-                <p className={style
-                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-            </div>
-
-            <div>
-                
-                <img src={instendTea} alt="" />
-                <p className={style.sale}>SALE</p>
-                <p className={style.itemName}>Instant Tea - Masala - Regular Sugar (36 Sachets)</p>
-                <p className={style.itemPrice}>₹ &nbsp;549</p>
-                <p className={style
-                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-            </div>
-
-            <div>
-                <img src={instendTea} alt="" />
-                <p className={style.sale}>SALE</p>
-                <p className={style.itemName}>Instant Tea - Masala - Regular Sugar (36 Sachets)</p>
-                <p className={style.itemPrice}>₹ &nbsp;549</p>
-                <p className={style
-                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-            </div>
-
-            <div>
-                <img src={instendTea} alt="" />
-                <p className={style.sale}>SALE</p>
-                <p className={style.itemName}>Instant Tea - Masala - Regular Sugar (36 Sachets)</p>
-                <p className={style.itemPrice}>₹ &nbsp;549</p>
-                <p className={style
-                .itemReview}><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-            </div>
-        </div>
-      </section>
+            
+        
+     
     </>
   )
 }

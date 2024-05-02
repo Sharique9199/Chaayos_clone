@@ -1,3 +1,4 @@
+
 .auto_run{
     background-color: rgb(202,86,26);
     color: white;
@@ -41,3 +42,22 @@ border: none;
     padding: 0.8rem 2rem;
     font-size: 1.5rem;  
 }
+
+
+.Heading{
+    text-align: center;
+    font-size: 42px;
+    color: rgb(7, 7, 7);
+}
+.cardContainer{
+    width: 95%;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: center;
+    align-items: center; */
+    gap: 1rem;
+   
+}
+

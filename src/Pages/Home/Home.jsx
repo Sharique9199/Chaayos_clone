@@ -6,8 +6,11 @@ import ItemsList from "../../components/Card/ItemsList";
 import Card from "../../components/Card/Card";
 import Images from "./Images";
 import Login from "../../components/Login/Login";
+import myData from "../../Data/Home.json";
 
 const Home = () => {
+  console.log(myData);
+
   return (
     <Layout>
       <marquee className={style.auto_run} behavior="" direction="">
@@ -26,7 +29,7 @@ const Home = () => {
         </p>
         <button>DOWNLOAD APP</button>
       </div>
-      <Login/>
+      <Login />
 
       <Slider />
       <Images />
@@ -37,9 +40,42 @@ const Home = () => {
         15% Off on Free shipping on order above Rs.250
       </marquee>
 
+      {/* <ItemsList /> */}
       <ItemsList />
-      <Card />
-      <Card />
+      <div className={style.Heading}>BestSeller</div>
+      <div className={style.cardContainer}>
+        {myData[0].data.map((data) => {
+          console.log("Anjum", myData[0].data);
+          return (
+            <Card
+              img={data.img}
+              name={data.name}
+              price={data.price}
+              desPrice={data.discountPrice}
+              desPer={data.discountPer}
+              review={data.review}
+              sale={data.sale}
+            />
+          );
+        })}
+      </div>
+      <div className={style.Heading}>New Arrivals</div>
+      <div className={style.cardContainer}>
+        {myData[1].data.map((data) => {
+          console.log("Anjum", myData[0].data);
+          return (
+            <Card
+              img={data.img}
+              name={data.name}
+              price={data.price}
+              desPrice={data.discountPrice}
+              desPer={data.discountPer}
+              review={data.review}
+              sale={data.sale}
+            />
+          );
+        })}
+      </div>
     </Layout>
   );
 };
