@@ -8,14 +8,15 @@ import fifthImage from "../../assets/fifth_stores.webp"
 import sixthImage from "../../assets/sixth_menu.webp"
 import seventhImage from "../../assets/seventh_delivery.webp"
 import eightImage from "../../assets/eight_gifitng.webp"
-
-
-
 import ItemsList from '../../components/Card/ItemsList'
 import Card from "../../components/Card/Card";
+import myData from '../../Data/Home.json'
+import style from './Home.module.css'
 
 
 const Home = () => {
+  console.log(myData)
+  
   return (
     <Layout>
 
@@ -49,8 +50,46 @@ const Home = () => {
       </marquee>
 
      <ItemsList/>
-    <Card/>
-    <Card/>
+     <div className={style.Heading}>BestSeller</div>
+    <div className={style.cardContainer}>
+    {
+      myData[0].data.map((data)=>{
+        console.log("Anjum",myData[0].data)
+        return(
+          <Card
+            
+            img={data.img}
+            name={data.name}
+            price={data.price}
+            desPrice={data.discountPrice}
+            desPer={data.discountPer}
+            review={data.review}
+            sale={data.sale}
+          />
+        )
+      })
+     }
+    </div>
+    <div className={style.Heading}>New Arrivals</div>
+    <div className={style.cardContainer}>
+    {
+      myData[1].data.map((data)=>{
+        console.log("Anjum",myData[0].data)
+        return(
+          <Card
+            
+            img={data.img}
+            name={data.name}
+            price={data.price}
+            desPrice={data.discountPrice}
+            desPer={data.discountPer}
+            review={data.review}
+            sale={data.sale}
+          />
+        )
+      })
+     }
+    </div>
 
     </Layout>
   );
