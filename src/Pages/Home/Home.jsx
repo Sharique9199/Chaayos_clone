@@ -5,6 +5,7 @@ import Slider from "../../components/Slider/Slider";
 import ItemsList from "../../components/Card/ItemsList";
 import Card from "../../components/Card/Card";
 import Images from "./Images";
+import Login from "../../components/Login/Login";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         </p>
         <button>DOWNLOAD APP</button>
       </div>
+      <Login/>
 
       <Slider />
       <Images />
