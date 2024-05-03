@@ -1,0 +1,70 @@
+.login {
+    max-width: 340px;
+    margin: 4rem auto;
+    padding: 20px;
+    
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    /* background-color: #fff; */
+  }
+  .login_p1{
+    text-align: center;
+    font-weight: 600;
+    margin: 2rem auto;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    line-height: 1.2;
+  }
+  .login_p2{
+    text-align: center;
+    font-size: 1em;
+    color: #000000;
+    letter-spacing: 1px;
+    margin: auto;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+  }
+  .PhoneInput {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .PhoneInputCountryIconImg{
+    border: 2px black;
+    width: 1rem;
+  }
+  /* .PhoneInput .PhoneInputCountry {
+    font-size: 0px;
+  } */
+  .login_btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  .verify_btn {
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0 1rem;
+    background-color: #28a745;
+  }
+  
+ 
+  input[type="number"] {
+    width: calc(100% - 85px);
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+
+  

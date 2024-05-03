@@ -21,7 +21,7 @@ const Header = () => {
             <IoSearch />
           </li>
           <li>
-            <FaRegUser />
+            <FaRegUser  onClick={()=> window.location="/login"}/>
           </li>
           <li>
             <RiHandbagLine />
