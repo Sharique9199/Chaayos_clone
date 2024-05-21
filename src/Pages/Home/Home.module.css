@@ -19,7 +19,8 @@
    letter-spacing: 0.2rem;
 border: none;
 }
-.images img{
+.images a img{
+    cursor: pointer;
     width: 95%;
     margin-left: 3rem;
     margin-bottom: 3rem;
@@ -29,6 +30,16 @@ border: none;
     text-align: center;
     margin: 2rem  0;
     font-size:2rem;
+}
+.visitBtn{
+    width: 40%;
+    margin-left: 30rem;
+    /* align-items: center; */
+    font-size: 1.8rem;
+    padding: 0.4rem 10rem;
+    border: solid rgb(98, 202, 97);
+    color: rgb(48, 156, 48);
+    border-radius: 6rem;
 }
 .title{
     width: 80%;
