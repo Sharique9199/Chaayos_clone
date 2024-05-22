@@ -26,6 +26,29 @@ const ProductDetails = () => {
             alt=""
             className={styles.image}
           />
+          <div className={styles.smallImage}>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+            <div>
+              <img src="https://chaayos.com/cdn/shop/products/3_0cbb1a54-dcef-44fb-97a9-00a2df0483e1.jpg?v=1637847179&width=120" alt="" />
+            </div>
+          </div>
         </div>
         <div className={styles.details}>
           <p className={styles.heading}>Make Your Own Chai - 400g Pack</p>
@@ -41,27 +64,19 @@ const ProductDetails = () => {
           </p>
           <p className={styles.discount}>Save 18%</p>
           <p>Quantity</p>
-          {/* <input type="number" min="1" className={styles.quantity} /> */}
+        
           <div className={styles.quantitySelector}>
             <div className={styles.inputContainer}>
-              <button
-                onClick={decreaseQuantity}
-                className={styles.decrementButton}
-              >
-                -
-              </button>
-              <input
-                type="number"
-                value={quantity}
-                readOnly
-                className={styles.input}
-              />
-              <button
-                onClick={increaseQuantity}
-                className={styles.incrementButton}
-              >
-                +
-              </button>
+         
+                <p onClick={decreaseQuantity}
+                className={styles.decrementButton}>-</p>
+              
+              
+            
+              <p  value={quantity} className={styles.input}>{quantity}</p>
+              <p onClick={increaseQuantity}
+                className={styles.incrementButton}>+</p>
+              
             </div>
           </div>
           <br />
@@ -72,7 +87,7 @@ const ProductDetails = () => {
           <br />
 
           <button className={styles.addToCart}>Add to Cart</button>
-          <div className={styles.reviews}>
+          {/* <div className={styles.reviews}>
             <h2>Customer Reviews</h2>
             <div className={styles.review}>
               <p>
@@ -158,10 +173,11 @@ const ProductDetails = () => {
                 product in this amount. Great product
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className={styles.Accordion}>
+
+      <div className={styles.Accordions}>
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -184,9 +200,10 @@ const ProductDetails = () => {
         </Accordion>
       </div>
       
+      <div className={styles.linksContainer}>
       <div className={styles.links}>
         <br />
-        <FacebookRoundedIcon />
+        <FacebookRoundedIcon  className={styles.icons}/>
         <a
           href="https://www.facebook.com/sharer/sharer.php?u=your_url"
           target="_blank"
@@ -195,7 +212,7 @@ const ProductDetails = () => {
            Facebook
         </a>
         <br />
-        <TwitterIcon />
+        <TwitterIcon className={styles.icons} />
         <a
           href="https://twitter.com/intent/tweet?url=your_url&text=your_text"
           target="_blank"
@@ -204,7 +221,7 @@ const ProductDetails = () => {
           Tweet
         </a>
         <br />
-        <PinterestIcon />
+        <PinterestIcon className={styles.icons} xl/>
         <a
           href="https://www.pinterest.com/pin/create/button/?url=your_url&media=image_url&description=description"
           target="_blank"
@@ -213,6 +230,8 @@ const ProductDetails = () => {
           Pin it
         </a>
       </div>
+      </div>
+     
     </Layout>
   );
 };

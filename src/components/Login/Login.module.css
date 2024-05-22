@@ -1,7 +1,8 @@
 .login {
-    max-width: 340px;
+    max-width: 20%;
     margin: 4rem auto;
     padding: 20px;
+    border:1px solid yellow;
     
     /* border: 1px solid #ccc; */
     /* border-radius: 5px; */
@@ -24,9 +25,11 @@
     word-wrap: break-word;
     margin-bottom: 25px;
   }
-  .PhoneInput {
+  .PhoneInputType {
+
     align-items: center;
     margin-bottom: 15px;
+    border: 1px solid red;
   }
   .PhoneInputCountryIconImg{
     border: 2px black;

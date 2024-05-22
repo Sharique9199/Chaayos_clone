@@ -1,32 +1,57 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+ 
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+   
     gap: 20px;
     padding: 20px;
+    scroll-behavior: smooth;
   }
+  .container > div:first-child{
+    width: 55%;
   
+  }
+ 
   .image {
-    max-width: 700px;
+    max-width: 100%;
     height: auto;
-    border: 1px solid #ddd;
+    border: 2px solid #550dc8;
     border-radius: 4px;
-    padding: 5px;
+    /* padding: 5px; */
   }
   
+  .smallImage{
+    width: 90%;
+    margin: 10px ;
+    /* height: 20px; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border: 1px solid black;
+    gap: 5px;
+  }
+  
+  .smallImage>div+img{
+    width: 120%;
+    height: auto;
+  }
   .details {
-    margin-left: 50px;
-    max-width: 600px;
+    max-width: 40%;
+    margin-left: 2px;
+    /* max-width: 600px; */
   }
-  .heading{
-    font-size: 30px;
-    
-  }
+ .heading{
+  font-size: 26px;
+  margin-top: 15px;
+  font-weight: 500;
+ }
   .box{
     display: flex;
+    flex-wrap: wrap;
 }
 .box p{
-    font-size: 14px;
+    font-size: 16px;
     cursor:pointer;
     border: 2px solid rgb(27, 26, 26);
     padding: 10px;
@@ -34,9 +59,7 @@
 
   }
   
-  .details p {
-    margin: 10px 0;
-  }
+ 
   
   .delPrice {
     color: red;
@@ -53,40 +76,32 @@
     font-weight: bold;
   }
   .quantitySelector {
-    display: flex;
-  
+    display: inline-flex;
+    border: 2px solid rgb(189, 189, 183);
   }
   
-  .inputContainer {
+  .inputContainer { 
+    width: 150px;
     display: flex;
     align-items: center;
-    /* border: 1px solid #ddd; */
-    border-radius: 5px;
-    overflow: hidden;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid #ddd;
   }
   
   .input {
-    width: 20px;
-    text-align: center;
-    border: none;
-    font-size: 16px;
-    height: 30px;
+   font-size: 20px;
+  margin-top: 0.8rem;   
   }
   
   .incrementButton,
   .decrementButton {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    font-size: 14px;
+   padding-top: 0.6rem;
+    font-size: 26px;
     cursor: pointer;
   }
   
-  .incrementButton:hover,
-  .decrementButton:hover {
-    background-color: #218838;
-  }
+
 
 
   .securePayment,
@@ -96,13 +111,17 @@
   }
   
   .addToCart {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
+    width: 95%;
+ font-size: 24px;
+    margin: 0.8rem 0;
+    color: rgb(12, 12, 12);
+    padding: 12px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
-    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(11, 11, 11);
+   
   }
   
   .addToCart:hover {
@@ -144,25 +163,36 @@
   .emptyStar {
     color: #ddd;
   }
-  .Accordion{
-      margin-top: 20px;
-      width: 600px;
-      margin-left: 500px;
-      margin-bottom: 30px;
+  .Accordions{
+      width: 30%;
+      margin: 0 auto;
       /* align-items: center !important; */
-      border: 1px solid grey ;
-      border-radius: 10px;
+      border: 2px solid grey ;
+      border-radius: 5px;
     }
     .description{
       font-size: 20px;
   }
+  .linksContainer{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+   
+  }
   .links{
-    display: flex;
-    margin-left: 500px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
   }
   .links a{
     cursor: pointer;
     color: black;
-    margin: 10px;
+    padding: 0 20px;
+    /* margin: 10px; */
    text-decoration: none;
+  }
+  .icons{
+    font-size: large;
   }

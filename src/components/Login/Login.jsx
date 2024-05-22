@@ -4,6 +4,7 @@
 // import PhoneInput from "react-phone-number-input";
 // import { auth } from "../../Firebase";
 // import Style from "./Login.module.css";
+// import 'react-phone-number-input/style.css'
 
 // const Login = () => {
 //   const [phone, setPhone] = useState();
@@ -42,11 +43,16 @@
 
 // export default Login;
 
+
+
+//extra code
+
 import { useState } from "react";
 import { signInWithPhoneNumber, RecaptchaVerifier } from "firebase/auth";
 import PhoneInput from "react-phone-number-input";
-import { auth } from "../../Firebase";
+import { auth } from "../../firebase/setup";
 import Style from "./Login.module.css";
+import 'react-phone-number-input/style.css'
 
 const Login = () => {
   const [phone, setPhone] = useState();
@@ -77,6 +83,7 @@ const Login = () => {
 
   return (
     <div className={Style.login}>
+      
       <img
         src="https://cdn.shopify.com/s/files/1/0537/1104/4798/files/simply-otp-login-banner.png?v=1714124745"
         width={300}
@@ -84,12 +91,22 @@ const Login = () => {
       />
       <p className={Style.login_p1}>Login with OTP</p>
       <p className={Style.login_p2}>Enter your log in details</p>
+      
       <PhoneInput
-        className={Style.PhoneInput}
+         placeholder="Enter mobile number"
+        // className={Style.PhoneInputType}
+     
+      
         country={"US"}
+        
         value={phone}
         onChange={setPhone}
       />
+      {/* <PhoneInput
+  placeholder="Enter phone number"
+  className={Style.PhoneInput}
+  value={value}
+  onChange={setValue}/> */}
       <button className={Style.login_btn} onClick={sendOtp}>
         Request OTP
       </button>
