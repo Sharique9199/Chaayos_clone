@@ -7,6 +7,7 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
+import DescriptionCards from "./DescriptionCards";
 
 const ProductDetails = () => {
   const [quantity, setQuantity] = useState(1);
@@ -213,6 +214,7 @@ const ProductDetails = () => {
           Pin it
         </a>
       </div>
+      <DescriptionCards/>
     </Layout>
   );
 };

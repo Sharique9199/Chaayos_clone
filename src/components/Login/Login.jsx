@@ -52,7 +52,7 @@ const Login = () => {
   const [phone, setPhone] = useState();
 
   const sendOtp = async () => {
-    console.log("shivani")
+    console.log("shivani");
     try {
       const recaptchaContainer = document.getElementById("recaptcha");
       const recaptcha = new RecaptchaVerifier(recaptchaContainer, {
